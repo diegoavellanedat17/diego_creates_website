@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
   return (
     <Section>
       <h2>Projects hot reload</h2>
-      <p>Some of my projects will go here test...</p>
+      <p>Some of my projects will go here testd...</p>
     </Section>
   );
 };
