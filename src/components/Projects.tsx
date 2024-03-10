@@ -8,7 +8,7 @@ const Section = styled.section`
 const Projects: React.FC = () => {
   return (
     <Section>
-      <h2>Projects</h2>
+      <h2>Projects hot reload</h2>
       <p>Some of my projects will go here...</p>
     </Section>
   );

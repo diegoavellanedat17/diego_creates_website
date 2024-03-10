@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
 
+import Projects from "./components/Projects";
+import Landing from "./components/Landing";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <main>
-        <AboutMe />
+        <Landing />
         <Projects />
       </main>
     </div>
