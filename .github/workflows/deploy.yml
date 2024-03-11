@@ -13,6 +13,9 @@ jobs:
       - name: Start Pipeline
         run: echo "Starting Diego create pipeline"
 
+      - name: Check git version
+        run: git --version
+
       - name: Checkout code
         uses: actions/checkout@v2
 
