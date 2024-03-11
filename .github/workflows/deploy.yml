@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Start Pipeline
+        run: echo "Starting Diego create pipeline"
+
       - name: Checkout code
         uses: actions/checkout@v2
 
